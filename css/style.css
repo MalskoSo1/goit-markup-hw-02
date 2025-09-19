@@ -34,8 +34,6 @@ ul {
 }
 
 .menu {
-  width: 261px;
-  height: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -58,7 +56,6 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
-  text-align: right;
 }
 
 .contact-link:hover,
@@ -69,8 +66,6 @@ ul {
 .hero {
   background-color: #2e2f42;
   text-align: center;
-  width: 1440px;
-  height: 600px;
 }
 
 .hero .hero-title {
@@ -83,10 +78,6 @@ ul {
 }
 
 .hero .hero-button {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
@@ -100,16 +91,6 @@ ul {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
-}
-
-.features ul {
-  width: 1128px;
-  height: 104px;
-}
-
-.features li {
-  width: 264px;
-  height: 104px;
 }
 
 .feature-item {
@@ -141,16 +122,6 @@ ul {
   color: #2e2f42;
 }
 
-.team-member {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #ffffff;
-}
-
 .team-member img {
   height: 260px;
 }
@@ -160,7 +131,6 @@ ul {
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -168,13 +138,7 @@ ul {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
-}
-
-.portfolio {
-  width: 1128px;
-  height: 1000px;
 }
 
 .portfolio-title {
@@ -185,11 +149,6 @@ ul {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-}
-
-.portfolio-item {
-  width: 360px;
-  height: 420px;
 }
 
 .portfolio img {
@@ -212,8 +171,6 @@ ul {
 }
 
 .site-footer {
-  width: 1440px;
-  height: 312px;
   background-color: #2e2f42;
 }
 
