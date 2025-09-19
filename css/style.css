@@ -155,11 +155,6 @@ ul {
   height: 260px;
 }
 
-/* .team-info {
-  width: 232px;
-  height: 56px;
-} */
-
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -201,15 +196,6 @@ ul {
   height: 300px;
 }
 
-/* .portfolio-content {
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
-  padding: 32px 16px;
-  width: 360px;
-  height: 120px;
-} */
-
 .portfolio-name {
   font-weight: 500;
   font-size: 20px;
@@ -230,11 +216,6 @@ ul {
   height: 312px;
   background-color: #2e2f42;
 }
-
-/* .footer-text {
-  width: 264px;
-  height: 112px;
-} */
 
 .site-footer .logo {
   font-family: "Raleway", sans-serif;
