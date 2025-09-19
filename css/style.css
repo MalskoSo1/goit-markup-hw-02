@@ -1,0 +1,292 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover,
+a:focus {
+  color: #4d5ae5;
+}
+
+a:active {
+  color: #1f2030;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav .logo-blue,
+.footer-text .logo-blue {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+}
+
+nav .logo:hover .logo-blue,
+nav .logo:focus .logo-blue {
+  color: #6b7cff;
+}
+
+nav .logo:active .logo-blue {
+  color: #3b4ad0;
+}
+
+nav .logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+}
+
+nav .logo:hover,
+nav .logo:focus {
+  color: #1f2030;
+}
+
+nav .logo:active {
+  color: #0f101a;
+}
+
+.menu {
+  width: 261px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+.contacts {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+  text-align: right;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: #5a5c7a;
+}
+
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+  width: 1440px;
+  height: 600px;
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hero .hero-button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding: 0;
+  cursor: pointer;
+}
+
+.hero .hero-button:hover,
+.hero .hero-button:focus {
+  background: #5c6dfd;
+}
+
+.hero .hero-button:active {
+  background: #3b4ad0;
+}
+
+.features ul {
+  width: 1128px;
+  height: 104px;
+}
+
+.features li {
+  width: 264px;
+  height: 104px;
+}
+
+.features h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+
+.features p {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team li {
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px;
+  width: 264px;
+  height: 380px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #ffffff;
+}
+
+.team li img {
+  width: 264px;
+  height: 260px;
+}
+
+.team .team-info {
+  width: 232px;
+  height: 56px;
+}
+
+.team .team-info h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team .team-info p {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+.portfolio {
+  width: 1128px;
+  height: 1000px;
+}
+
+.portfolio h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.portfolio li {
+  width: 360px;
+  height: 420px;
+}
+
+.portfolio img {
+  width: 360px;
+  height: 300px;
+}
+
+.portfolio .portfolio-content {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  width: 360px;
+  height: 120px;
+  padding: 0;
+}
+
+.portfolio h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+
+.portfolio p {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+footer {
+  width: 1440px;
+  height: 312px;
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  width: 264px;
+  height: 112px;
+}
+
+.footer-text .logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+}
+
+.footer-text .logo:hover,
+.footer-text .logo:focus {
+  color: #ffffff;
+}
+
+.footer-text .logo:active {
+  color: #dcdcff;
+}
+
+.footer-text .logo:hover .logo-blue,
+.footer-text .logo:focus .logo-blue {
+  color: #6b7cff;
+}
+
+.footer-text .logo:active .logo-blue {
+  color: #3b4ad0;
+}
+
+.footer-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
